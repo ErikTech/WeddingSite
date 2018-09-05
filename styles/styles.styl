@@ -1,0 +1,181 @@
+$font-size = 50px
+
+.index
+	h1
+		margin: 0!important
+
+body
+	margin: 0!important
+.headerh1
+	font-family: 'Raleway', sans-serif
+	.cursive
+		font-family: 'Mr De Haviland', cursive
+
+.lang-toggle
+	z-index: 99999
+	position: fixed
+	width: 50px
+	height: 15px
+	font-size: 24px
+	bottom: 15px
+	color: #444
+	text-decoration: none
+	right: 15px
+	text-align: right
+	cursor: pointer
+	&:hover
+		opacity: 0.5
+
+.container
+	width: 70%
+	max-width: 1070px
+	margin: 0 auto
+	display: block
+	overflow: hidden
+p
+	font-family: Roboto
+	color: rgb(194,180,155)
+	letter-spacing: 1px
+	font-size: 16px
+h2
+	font-family: "Raleway", sans-serif
+	text-align: center
+	text-transform: uppercase
+	letter-spacing: 5px
+	padding-bottom: 30px
+	border-bottom: 1px solid rgb(194, 180, 155)
+	width: auto
+	max-width: 300px
+	margin: 0 auto
+	color: rgb(194, 180, 155)
+	margin-top: 60px
+	padding-bottom: 50px
+	margin-bottom: 65px
+
+#main-layout
+	overflow-x: hidden
+hr
+	clear: both
+.ReactGridGallery
+	clear: both
+	margin: 30px auto
+	float: left
+	width: 100%
+	.tile-viewport
+		// height: auto!important
+		height: 180px!important
+		width: 180px!important
+		margin: 0 auto
+
+
+	.tile
+		width: 18%
+		width: calc(20% - 4px)
+		// max-width: 23%
+		min-width: 180px
+		overflow: hidden
+		background: #fff!important
+		// margin: 1%!important
+		img
+			margin: 0 auto!important
+			height: auto!important
+			width: 100%
+			display: block
+
+
+@media (max-width: 768px)
+	.home-nav
+		li
+			display: inline-block!important
+			width: 25%!important
+			a
+				font-size: 13px!important
+			&:first-child
+				display: none!important
+	.ReactGridGallery
+		max-width: 340px
+		float: none
+		.tile
+			// float: none!important
+			margin: 5px auto!important
+			padding: 0 10px!important
+			width: 50%!important
+			box-sizing: border-box;
+
+	.navbar
+		position: relative!important
+		li
+			padding: 0px!important
+	.about_us
+		font-size: 18px
+	.map
+		margin-left: 0
+		margin: 0 auto!important
+	.navbar
+		// background: red
+		display: block!important
+		li
+			width: 100%
+			display: block
+			padding: 10px 0
+	.main
+		display: block!important
+		.half
+			width: 100%!important
+			float: none!important
+			display: block!important
+			margin: 0 auto
+	#imageComponent
+		margin-top: 0px!important
+		height: 260px!important
+	.leaf2
+		width: 280px!important
+		height: 260px!important
+		left: -150px!important
+		top: -100px!important
+	.leaf4
+		width: 350px !important
+		height: 421px !important
+		right: -120px!important
+	// 	display: none!important
+	#index-layout
+		.hashtag
+			a
+				color: #fff!important
+		h1
+			margin-top: 30px!important
+			margin-bottom: 30px!important
+			> a
+				> span
+					display: block!important
+					width: 100%!important
+					margin: 0 auto!important
+					text-align: center!important
+
+
+	#main-layout
+		overflow-x: hidden!important
+
+		h1
+			margin-top: 30px!important
+			margin-bottom: 30px!important
+
+			a
+				span
+					display: block!important
+					width: 100%!important
+					margin: 0 auto!important
+					text-align: center!important
+
+
+@media (max-width: 515px)
+	.ReactGridGallery
+		.tile-viewport
+			height: 120px!important
+		.tile
+			// float: none!important
+			margin: 5px auto!important
+			padding: 0 10px!important
+			width: 50%!important
+			box-sizing: border-box
+			min-width: 0px

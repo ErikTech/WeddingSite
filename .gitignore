@@ -1,0 +1,6 @@
+sendgrid.env
+/node_modules/
+.next
+.DS_Store
+server.js
+script.js
