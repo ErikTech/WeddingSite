@@ -58,9 +58,10 @@ const IndexContent = ({language}) => (<div>
 				{/* <div> 2019</div> */}
 			</h1>
 
-			<div className="hashtag"><a href="https://www.instagram.com/explore/tags/ninaelopez/" target="_blank">#NinaELopez</a></div>
+			{/* <div className="hashtag"><a href="https://www.instagram.com/explore/tags/ninaelopez/" target="_blank">#NinaELopez</a></div> */}
 
-		</div>
+			<div className="hashtag"><a href="/photos" target="_blank">Check out the event photos!</a></div>
+			</div>
 	</div>
 	<style jsx="jsx">
 		{
@@ -70,18 +71,27 @@ const IndexContent = ({language}) => (<div>
 				text-align: left;
 				font-weight: 300;
 				left: 0;
-				color: #000;
+				color: #fff;
+				background: #000;
+				opacity: 0.5;
+				padding-right: 10px;
+
 
 
 			}
 			.hashtag a{
 				display: block;
 				font-size: 18px;
-				opacity: 0.5;
+				opacity: 1;
 				padding: 5px;
-				color: #000;
+				padding-right: 10px;
+				color: #fff;
 				font-family: 'Prata', sans-serif;
 				text-transform: uppercase;
+			}
+			.hashtag:hover{
+				opacity: 0.75;
+
 			}
 			.container {
 				width: 100%;

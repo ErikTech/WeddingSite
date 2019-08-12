@@ -200,8 +200,15 @@ const otherImages = [
 
 const PhotoContent = ({language}) => (
 	<div>
+
 	<div className="container">
+
 		<h2>{language == 'en'	? `Photos`	: `Fotos`}</h2>
+		<div className="photoLinks">
+			<a href="https://www.amazon.com/photos/shared/APLEe5PsS0GV-g-7ESezqg.buhbVnnS7Naxpx-CjDpA5c">Thursday Night Dinner Photos!</a>
+			<a href="https://www.amazon.com/photos/shared/p5jHij2-SpyLxy8CXx0QCg.BkdGOnRaoNx6ozUWLnPR5O">Photoshoot Photos!</a>
+			<a href="https://www.amazon.com/photos/shared/YMmuv-MdSdeazd29h9RKiw.bkHfa_lRfCg1VY0jB4o7RU">Wedding Party Photos!</a>
+		</div>
 		<Gallery images={fancyImages} rowHeight={180} enableImageSelection={false}/>
 		<br/>
 		<hr/>
@@ -209,7 +216,31 @@ const PhotoContent = ({language}) => (
 		<Gallery images={otherImages} rowHeight={180} enableImageSelection={false}/>
 
 	</div>
+	<style jsx>{`
+.photoLinks a{
+   text-align: center;
+   margin-top: 15px;
+   display: block;
+//    font-family: 'Pinyon Script/', sans-serif;
+   color: rgb(194, 180, 155);
+   // color: #143c18;
+   // text-transform: capitalize;
+   // letter-spacing: 5px;
+   font-size:20px;
+   font-weight: 100;
+ }
+ .photoLinks a:hover{
+	 color: #143c18;
+	 opacity: 0.5;
+ }
+ .photoLinks{
+	 border-bottom: 1px solid rgb(194, 180, 155);
+	 padding-bottom: 45px;
+ }
+ 
+  `}</style>
 </div>
+
 
 )
 
