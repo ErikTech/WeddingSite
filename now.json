@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "name": "wedding-site",
+    "builds": [{"src": "package.json", "use": "@now/next"}],
+    "alias": ["lopezbyramwedding.com", "www.lopezbyramwedding.com"]
+}

@@ -60,7 +60,7 @@ const IndexContent = ({language}) => (<div>
 
 			{/* <div className="hashtag"><a href="https://www.instagram.com/explore/tags/ninaelopez/" target="_blank">#NinaELopez</a></div> */}
 
-			<div className="hashtag"><a href="/photos" target="_blank">Check out the event photos!</a></div>
+			<div className="hashtag"><a href="/photos">Event photos are in!</a></div>
 			</div>
 	</div>
 	<style jsx="jsx">
