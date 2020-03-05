@@ -4,3 +4,5 @@ sendgrid.env
 .DS_Store
 server.js
 script.js
+
+.now
