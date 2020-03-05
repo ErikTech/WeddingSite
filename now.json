@@ -1,9 +1,9 @@
 {
     "version": 2,
     "name": "wedding-site",
-    "builds": [{"src": "package.json", "use": "@now/next"}],
+    "builds": [{"src": "package.json", "use": "@now/node-server@0.4.26"}],
     "alias": ["lopezbyramwedding.com", "www.lopezbyramwedding.com"],
     "routes": [
-        { "src": "/.*", "dest": "/server.js" }
+        { "src": "/.*", "dest": "/index.js" }
       ]
 }
